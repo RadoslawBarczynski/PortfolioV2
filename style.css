@@ -228,7 +228,7 @@ body{
     background-color: #121212;
   
     overflow: hidden;
-  
+    text-decoration: none;
     position: relative;
   }
   .ag-courses-item_link:hover,
