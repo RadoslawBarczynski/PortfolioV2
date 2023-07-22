@@ -47,6 +47,7 @@ body{
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
+    top:0;
     transition: .3s;
     opacity: 0;
     animation: slideTop .5s ease forwards;
@@ -68,6 +69,16 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 70px 10% 0;
+}
+
+@media only screen and (max-width: 750px) {
+  .home{
+    flex-direction: column;
+    gap:2rem;
+    height: 150vh;
+    padding-bottom: 5rem;
+    padding-top:7rem;
+  }
 }
 
 .home-content{
@@ -168,6 +179,13 @@ body{
     align-items: center;
     padding: 70px 10% 0;
     background:#212337;
+}
+
+@media only screen and (max-width: 750px) {
+  .about{
+height:130vh;
+width: 103%;
+  }
 }
 
 .code-line{
