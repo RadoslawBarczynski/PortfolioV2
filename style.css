@@ -81,8 +81,26 @@ body{
   }
 }
 
+.background-title{
+  position: absolute;
+  font-size: 12rem;
+  font-weight: bold;
+  top: 10rem;
+  right: 0;
+  color: #2d343f;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 660px) {
+  .background-title{
+    top: 35rem;
+    font-size: 7rem;
+  }
+}
+
 .home-content{
     max-width: 600px;
+    z-index: 999;
 }
 
 .home-content h3{
@@ -117,6 +135,10 @@ body{
 
 .home-content h3 span{
     color: #00FF8D;
+}
+
+.home-img{
+  z-index: 999;
 }
 
 .home-img img{
@@ -188,6 +210,23 @@ width: 103%;
   }
 }
 
+.background-title-about{
+  position: absolute;
+  font-size: 12rem;
+  font-weight: bold;
+  top: 0;
+  right: 0;
+  color: #2f3145;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 660px) {
+  .background-title-about{
+    font-size: 7rem;
+    top: -1rem;
+  }
+}
+
 .code-line{
     display:flex;
     gap:2rem;
@@ -218,6 +257,23 @@ width: 103%;
     background:#1f242d;
 }
 
+.background-title-projects{
+  position: absolute;
+  font-size: 12rem;
+  font-weight: bold;
+  top: -3rem;
+  right: 0;
+  color: #2d343f;
+  z-index: 0;
+}
+
+@media only screen and (max-width: 660px) {
+  .background-title-projects{
+    font-size: 4rem;
+    top:2rem;
+  }
+}
+
 .ag-courses_box {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -227,6 +283,7 @@ width: 103%;
     align-items: flex-start;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    z-index: 999;
   
     padding: 50px 0;
   }
